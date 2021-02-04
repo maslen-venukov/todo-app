@@ -1,0 +1,49 @@
+.folders
+  margin-bottom: 15px
+  &__item
+    position: relative
+    line-height: 30px
+    height: 30px
+    border-radius: 5px
+    padding: 0 24px 0 12px
+    transition: background-color .2s, box-shadow .2s
+    overflow: hidden
+    white-space: nowrap
+    text-overflow: ellipsis
+    &:not(:last-child)
+      margin-bottom: 5px
+    &:hover,
+    &:focus,
+    &.active
+      background-color: #fff
+      box-shadow: 0 6px 10px rgba(#000, .05)
+      cursor: pointer
+      &::before
+        opacity: 1
+      .folders__marker,
+      .folders__remove
+        opacity: 1
+        visibility: visible
+    &:active
+      transform: translateY(1px)
+  &__marker
+    position: absolute
+    top: 0
+    left: 0
+    width: 6px
+    height: 100%
+    opacity: 0
+    visibility: hidden
+    transition: opacity .2s, visibility .2s, background-color .2s
+  &__remove
+    position: absolute
+    top: 50%
+    right: 10px
+    z-index: 1
+    transform: translateY(-50%)
+    width: 10px
+    height: 10px
+    background: url(../../img/cross.svg) center / cover no-repeat
+    opacity: 0
+    visibility: hidden
+    transition: opacity .2s, visibility .2s

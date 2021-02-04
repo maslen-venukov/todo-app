@@ -1,0 +1,19 @@
+.add-btn
+  position: relative
+  color: #767676
+  background-color: transparent
+  padding-left: 15px
+  margin-bottom: 10px
+  &::before
+    content: ''
+    position: absolute
+    top: 50%
+    left: 0
+    transform: translateY(-50%)
+    width: 10px
+    height: 10px
+    background: url(../../img/plus.svg) center / cover no-repeat
+  &:active
+    transform: translateY(1px)
+  &--folders
+    margin-bottom: 10px

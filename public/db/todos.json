@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "text": "Фильмы",
+    "tasks": [
+      {
+        "id": 1,
+        "text": "Джанго освобожденный",
+        "completed": false
+      },
+      {
+        "id": 2,
+        "text": "Славные парни",
+        "completed": false
+      },
+      {
+        "id": 3,
+        "text": "Банды Нью-Йорка",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Сериалыыыыыыыыыыыыыыыыыыыыы",
+    "tasks": [
+      {
+        "id": 4,
+        "text": "Во все тяжкие",
+        "completed": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "Книги",
+    "tasks": [
+      {
+        "id": 5,
+        "text": "1984",
+        "completed": true
+      },
+      {
+        "id": 6,
+        "text": "Заводной апельсин",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "Покупки",
+    "tasks": [
+      {
+        "id": 7,
+        "text": "Молоко",
+        "completed": true
+      },
+      {
+        "id": 8,
+        "text": "Хлеб",
+        "completed": false
+      },
+      {
+        "id": 9,
+        "text": "Масло",
+        "completed": true
+      },
+      {
+        "id": 10,
+        "text": "Сыр",
+        "completed": true
+      },
+      {
+        "id": 11,
+        "text": "Колбаса",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "Домашка",
+    "tasks": []
+  }
+]
